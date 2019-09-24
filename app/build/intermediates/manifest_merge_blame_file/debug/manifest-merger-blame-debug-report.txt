@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.harry.video.floating"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:5:5-75
+11-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:5:19-72
+12
+13    <application
+13-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:7:5-23:19
+14        android:allowBackup="true"
+14-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /Users/harry/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:13:9-40
+23        <activity
+23-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:14:9-96
+24            android:name="com.harry.video.floating.VideoActivity"
+24-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:14:19-48
+25            android:launchMode="singleInstance" />
+25-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:14:49-84
+26        <activity android:name="com.harry.video.floating.MainActivity" >
+26-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:15:9-21:20
+26-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:15:19-47
+27            <intent-filter>
+27-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:16:13-20:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:17:17-69
+28-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:17:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:19:17-77
+30-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:19:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <service android:name="com.harry.video.floating.FloatService" />
+34-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:22:9-48
+34-->/Users/harry/WorkSpace/VideoFloat/app/src/main/AndroidManifest.xml:22:18-46
+35    </application>
+36
+37</manifest>
