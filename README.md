@@ -1,9 +1,4 @@
 
-测试测试。。。。。。。。。。。。。。
-
-
-asdfadfasdfasdfasdfasdfasdfaf
-
 
 # 模拟在线视频悬浮框 
 
@@ -193,5 +188,3 @@ mFloatingLayout.setOnClickListener(new View.OnClickListener() {
             });
 ```
 
-
-adfadfasdfasdfasdf
